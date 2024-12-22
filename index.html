@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransPortComp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    
+<section class="hero">
+    <img src="img\soforazonositas_2560-1.jpg" alt="Транспортная компания" class="hero-image">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>ТрансПорт</h1>
+        <p>Надежные грузоперевозки по всей России</p>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="about-content">
+        <h2>О компании</h2>
+        <p>ТрансКомпани успешно работает на рынке грузоперевозок более 20 лет, предоставляя надежные и качественные услуги по всей России. Мы гордимся нашим опытом и профессионализмом, обеспечивая безопасность и своевременность доставки ваших грузов.</p>
+        <p>Мы предлагаем широкий спектр услуг, включая помощь с переездом, перевозку тяжелых и малогабаритных грузов, а также автомобильные и междугородние перевозки. Наша компания гарантирует быструю и надежную доставку в любое время суток.</p>
+    </div>
+</section>
+<section id="advantages" class="advantages">
+    <center><h2>Наши преимущества</h2></center>
+    <div class="advantages-grid">
+        <div class="advantage-card">
+            <div class="advantage-icon">🚚</div>
+            <h3>Доставка до двери</h3>
+            <p>Осуществляем доставку груза точно по указанному адресу в удобное для вас время</p>
+        </div>
+        <div class="advantage-card">
+            <div class="advantage-icon">⚡</div>
+            <h3>Быстрая доставка</h3>
+            <p>Оптимальные маршруты и профессиональные водители обеспечивают минимальные сроки доставки</p>
+        </div>
+        <div class="advantage-card">
+            <div class="advantage-icon">📦</div>
+            <h3>Грузы до 30 тонн</h3>
+            <p>Перевозим крупногабаритные и тяжелые грузы весом до 30 тонн</p>
+        </div>
+        <div class="advantage-card">
+            <div class="advantage-icon">👨‍💼</div>
+            <h3>Персональный менеджер</h3>
+            <p>Ваш персональный менеджер всегда на связи и готов помочь в любой ситуации</p>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <h2>Наши услуги</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>Перевозка малогабаритных грузов</h3>
+            <img src="img/D3f5CSg0SI0.jpg" alt="Перевозка малогабаритных грузов" class="service-image">
+            <p>Мы обеспечиваем быструю и надежную доставку малогабаритных грузов по всей России.</p>
+            <button class="btn" data-info="info1">Подробнее</button>
+        </div>
+        <div class="service-card">
+            <h3>Междугородние перевозки</h3>
+            <img src="img/trans-company-5.jpg" alt="Междугородние перевозки" class="service-image">
+            <p>Перевозка грузов между городами.</p>
+            <button class="btn" data-info="info2">Подробнее</button>
+        </div>
+        <div class="service-card">
+            <h3>Перевозка тяжелых грузов</h3>
+            <img src="img/61d595313643e7.65710846.jpg" alt="Перевозка тяжелых грузов" class="service-image">
+            <p>Транспортировка крупногабаритных и тяжелых грузов.</p>
+            <button class="btn" data-info="info3">Подробнее</button>
+        </div>
+        <div id="services-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="services-modal-title"></h2>
+                <div id="services-modal-description"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+    </div>
+</div>
+
+    <center><a href="cartr.html" class="btn delivery-btn">Оформить доставку</a></center>
+
+    <footer>
+        <div class="footer-content">
+            <p id="contact">Наш номер для связи: <span role="img" aria-label="phone">📞</span> +79060913980</p>
+            <p>&copy; 2024 Транспортная компания. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
